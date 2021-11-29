@@ -12,9 +12,9 @@ public class Producer {
 
     public static void main(String[] args) {
         ConnectionFactory factory =new ConnectionFactory();
-        factory.setHost("192.168.174.141");
-        factory.setUsername("admin");
-        factory.setPassword("123");
+        factory.setHost("...");
+        factory.setUsername("...");
+        factory.setPassword("...");
         String msg ="hello bqwg wgnb!";
         try {
             Connection connection = factory.newConnection();
